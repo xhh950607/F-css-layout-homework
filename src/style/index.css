@@ -18,3 +18,30 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+header {
+  border: 1px solid;
+}
+
+.content{
+  display: flex;
+  border: 1px solid;
+}
+
+aside:first-child {
+  width: 20%;
+  border: 1px solid;
+}
+
+aside:last-child {
+  width: 25%;
+}
+
+main {
+  width: 55%;
+  border: 1px solid;
+}
+
+footer {
+  border: 1px solid;
+}
