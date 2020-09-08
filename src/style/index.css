@@ -19,8 +19,12 @@ ul {
   padding: 0;
 }
 
-header {
-  border: 1px solid;
+header ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: #262626;
+  color: #b9c2ca;
 }
 
 .content{
