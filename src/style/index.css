@@ -19,6 +19,14 @@ ul {
   padding: 0;
 }
 
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+}
+
 a {
   color: purple;
   text-decoration: underline;
@@ -52,7 +60,6 @@ header ul {
 
 .left_aside h2{
   font-style: italic;
-  margin: 10px 0;
 }
 
 .left_aside a{
@@ -108,7 +115,39 @@ form{
 
 main {
   width: 55%;
-  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  width: 49%;
+}
+
+article {
+  margin-bottom: 10px;
+  height: fit-content;
+  margin-bottom: 20px;
+  box-shadow: 0 0 4px lightgray;
+}
+
+.img_container {
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  background-color: rgb(80, 80, 80);
+  color:white;
+}
+
+.article_content {
+  padding: 0 20px 20px;
+}
+
+.view_detail {
+  display: block;
+  margin-top: 10px;
+  color: rgb(38, 132, 247);
+  text-decoration: none;
 }
 
 footer {
