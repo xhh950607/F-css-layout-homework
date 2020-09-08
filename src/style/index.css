@@ -42,7 +42,7 @@ header ul {
 }
 
 .left_aside section:first-child{
-  background-color: lightgrey;
+  background-color: rgb(240, 240, 240);
 }
 
 .left_aside h2{
@@ -56,8 +56,51 @@ header ul {
   text-decoration: underline;
 }
 
-aside:last-child {
+.right_aside {
   width: 25%;
+  display: flex;
+  align-items: center;
+}
+
+form{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8%;
+  border-radius: 5px;
+  background-color: rgb(240, 240, 240);
+}
+
+#email, #password, .submit_btn{
+  width: 100%;
+  height: 35px;
+  border: 1px solid lightgray;
+  padding: 0 10px;
+}
+
+#email{
+  border-radius: 5px 5px 0 0;
+}
+
+#password {
+  border-radius: 0 0 5px 5px;
+  border-top: none;
+}
+
+.remember_me{
+  display: flex;
+  align-items: center;
+  height: 30px;
+  font-size: 10px;
+}
+
+.submit_btn{
+  background-color: rgb(64, 134, 255);
+  color: white;
+  font-size: 17px;
+  border-radius: 5px;
 }
 
 main {
