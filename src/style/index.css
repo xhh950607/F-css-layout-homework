@@ -45,28 +45,28 @@ header ul {
   padding: 30px 0;
 }
 
-.left_aside {
+.left-aside {
   width: 20%;
 }
 
-.left_aside section {
+.left-aside section {
   margin: 0 10%;
   padding: 7%;
 }
 
-.left_aside section:first-child {
+.left-aside section:first-child {
   background-color: rgb(240, 240, 240);
 }
 
-.left_aside h2 {
+.left-aside h2 {
   font-style: italic;
 }
 
-.left_aside a {
+.left-aside a {
   display: block;
 }
 
-.right_aside {
+.right-aside {
   width: 25%;
   display: flex;
   align-items: center;
@@ -85,7 +85,7 @@ form {
 
 #email,
 #password,
-.submit_btn {
+.submit-btn {
   width: 100%;
   height: 35px;
   border: 1px solid lightgray;
@@ -101,14 +101,14 @@ form {
   border-top: none;
 }
 
-.remember_me {
+.remember-me {
   display: flex;
   align-items: center;
   height: 30px;
   font-size: 10px;
 }
 
-.submit_btn {
+.submit-btn {
   background-color: rgb(64, 134, 255);
   color: white;
   font-size: 17px;
@@ -142,11 +142,11 @@ article {
   color: white;
 }
 
-.article_content {
+.article-content {
   padding: 0 20px 20px;
 }
 
-.view_detail {
+.view-detail {
   display: block;
   margin-top: 10px;
   color: rgb(38, 132, 247);
